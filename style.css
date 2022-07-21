@@ -166,4 +166,76 @@ font-size: 20px;
     color: white;
     margin-left: 25px;
 }
-/* midea quary section */
+img{
+    width: 100%;
+}
+/* -------------------
+midea quary section 
+ -------------------------- */
+ @media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .header-section{
+        display: block;
+        
+    }
+    .half-width{
+        margin: auto;
+    }
+
+    .group-all{
+        
+        width: 100%;
+        height: auto;
+        margin-bottom:25px;
+        background: none;
+    }
+    .top-blogs{
+        display: block;
+    }
+    .blogs{
+        display: block;
+    }
+    .blog{
+        margin-bottom: 20px;
+        
+    }
+    .menu{
+        display: block;
+    }
+    .view-all{
+        display: none;
+    }
+    .half-width img {
+        height: 400px;
+    }
+
+ }
+ @media (min-width:687px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .header-section{
+        background: #666;
+    }
+    .group-all{
+        display: block;
+        width: 100%;
+        height: auto;
+        background: none;
+    }
+    .top-blogs{
+        display: block;
+    }
+    .blogs{
+        display: block;
+    }
+    .blog{
+        margin-bottom: 20px;
+        display: inline-block;
+        width: 49%;
+    }
+    
+
+ }
